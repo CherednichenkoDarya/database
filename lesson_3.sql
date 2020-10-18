@@ -7,3 +7,4 @@ CREATE TABLE twitter(
   created_at DATETIME DEFAULT NOW() COMMENT "Время создания строки",
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT "Время обновления строки"
 ) COMMENT "Посты";
+
